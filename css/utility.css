@@ -4,3 +4,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* FLEX */
+
+.flex {
+    display: flex;
+}
+
+.dir-column {
+    flex-direction: column;
+}
+

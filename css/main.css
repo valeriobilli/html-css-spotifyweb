@@ -1,3 +1,22 @@
+/* COLORI */
+
+.bg-black {
+    background-color: black;
+}
+.bg-gray {
+    background-color: #282828;
+}
+.bg-blue {
+    background-color: #141922;
+}
+
+.fg-white {
+    color: white;
+}
+
+
+
+
 body {
     background-color: darkseagreen;
 }
@@ -11,11 +30,23 @@ header {
     right: 0;
 }
 
+/* SIDE MENU */
+
 #side-menu {
-    background-color: cadetblue;
     width: 50px;
     height: 100vh;
 }
+
+#icon-menu {
+    padding: 0.5rem;
+}
+
+#icon-menu > * {
+    margin-bottom: 1rem;
+}
+
+
+
 
 footer {
     background-color: darkolivegreen;
