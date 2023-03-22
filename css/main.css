@@ -53,12 +53,17 @@ aside, #icon-side-menu {
     height: calc(100vh - 90px)
 }
 
+#logo {
+    width: 80%;
+}
+
 .small-icon {
     width: 15%;
 }
 
 #text-side-menu {
     height: 100%;
+    display: none;
 }
 
 
@@ -102,6 +107,12 @@ footer {
     #icon-side-menu {
         display: none;
     }
+
+    #text-side-menu {
+        display: flex;
+    }
+
+
 
 
 
