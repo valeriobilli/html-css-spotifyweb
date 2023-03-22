@@ -17,7 +17,7 @@
 
 
 
-body {
+main {
     background-color: darkseagreen;
 }
 
@@ -34,16 +34,9 @@ header {
 
 #side-menu {
     width: 50px;
-    height: 100vh;
+    height: calc(100vh - 90px)
 }
 
-#icon-menu {
-    padding: 0.5rem;
-}
-
-#icon-menu > * {
-    margin-bottom: 1rem;
-}
 
 
 
