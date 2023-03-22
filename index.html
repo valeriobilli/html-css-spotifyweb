@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/utility.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap" rel="stylesheet">
     <title>Spotify</title>
 </head>
 <body>
@@ -19,8 +22,8 @@
     <!-- MAIN -->
      <main>
         <!-- side menu -->
-        <section>
-            <div id="side-menu" class="flex dir-column space-between bg-black">
+        <aside class="bg-black">
+            <!-- <div id="icon-side-menu" class="flex dir-column space-between bg-black">
                 <div class="pa-0_5">
                     <img class="ma-btm-1" src="img/logo-small.svg" alt="logo-small">
                     <img class="ma-btm-1" src="img/home.svg" alt="Home">
@@ -31,8 +34,72 @@
                     <img class="ma-btm-1" src="img/download.svg" alt="download">
                     <img src="img/profile.svg" alt="Icona utente">
                 </div>
+            </div> -->
+
+
+
+
+            <div id="text-side-menu" class="flex dir-column space-between">
+
+                <div class="flex-container">
+                    <div class="pa-1">
+                        <img src="img/logo.svg" alt="Logo">
+                    </div>
+    
+                    <div>
+                        <div class="fg-white ma-btm-1 pa-lft-1 flex align-center">
+                            <img class="small-icon" src="img/home.svg" alt="Home">
+                            <span class="pa-lft-1 fg-gray">Home</span>
+                        </div>
+                        <div class="fg-white ma-btm-1 pa-lft-1 flex align-center">
+                            <img class="small-icon" src="img/search.svg" alt="Search">
+                            <span class="pa-lft-1 fg-gray">Cerca</span>
+                        </div>
+                        <div class="fg-white ma-btm-1_5 pa-lft-1 flex align-center">
+                            <img class="small-icon" src="img/libreria.svg" alt="libreria">
+                            <span class="pa-lft-1 fg-gray">La tua libreria</span>
+                        </div> 
+                    </div>            
+    
+                    <div class="pa-lft-1">
+                        <div class="fg-white bold ma-btm-1">PLAYLIST</div>
+                        <div class="flex align-center ma-btm-1_5">
+                            <i class="fa-solid fa-square-plus fg-gray font-2_25"></i>
+                            <span class="fg-gray pa-lft-1">Crea playlist</span>
+                        </div>
+                    </div>
+    
+                    <div class="flex dir-column pa-lft-1">
+                        <div class="fg-gray ma-btm-1_5">Nome Playlist</div>
+                        <div class="fg-gray ma-btm-1_5">Nome Playlist</div>
+                        <div class="fg-gray ma-btm-1_5">Nome Playlist</div>
+                        <div class="fg-gray ma-btm-1_5">Nome Playlist</div>
+                        <div class="fg-gray ma-btm-1_5">Nome Playlist</div>
+                        <div class="fg-gray ma-btm-1_5">Nome Playlist</div>
+                        <div class="fg-gray ma-btm-1_5">Nome Playlist</div>
+                    </div>
+                </div>
+                
+
+                <div>
+                    <div class="pa-lft-1">
+                        <div class="flex align-center ma-btm-1">
+                            <img class="fg-gray small-icon" src="img/download.svg" alt="download">
+                            <span class="fg-gray pa-lft-1">Installa app</span>
+                        </div>
+                        <hr class="fg-gray ma-btm-1 ma-rgt-1">
+                        <div class="flex align-center ma-btm-0_5">
+                            <img class="small-icon" src="img/profile.svg" alt="Icona utente">
+                            <span class="fg-white bold pa-lft-1">John Doe</span>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
             </div>
-        </section>
+
+
+        </aside>
 
         <!-- menu navigazione -->
         <nav></nav>

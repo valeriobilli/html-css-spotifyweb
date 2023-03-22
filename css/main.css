@@ -14,6 +14,22 @@
     color: white;
 }
 
+.fg-gray {
+    color: #717171;
+}
+
+/* FONT */
+
+.bold {
+    font-weight: bold;
+}
+
+body { font-family: 'Open Sans', sans-serif; }
+
+
+.ao {
+    margin-bottom: 100px;
+}
 
 
 
@@ -32,14 +48,31 @@ header {
 
 /* SIDE MENU */
 
-#side-menu {
+aside, #icon-side-menu {
     width: 50px;
     height: calc(100vh - 90px)
+}
+
+.small-icon {
+    width: 15%;
+}
+
+#text-side-menu {
+    height: 100%;
 }
 
 
 
 
+
+
+
+
+
+
+
+
+/* FOOTER */
 
 footer {
     background-color: darkolivegreen;
@@ -62,9 +95,17 @@ footer {
         width: calc(100% - 230px);
     }
     
-    #side-menu {
+    aside {
         width: 230px;
     }
+
+    #icon-side-menu {
+        display: none;
+    }
+
+
+
+
 
 
 }
