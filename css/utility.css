@@ -25,19 +25,27 @@
     flex-direction: column;
 }
 
-.space-between {
-    justify-content: space-between;
+.wrap {
+    flex-wrap: wrap;
 }
 
-
-
-.align-center {
-    align-items: center;
+.space-between {
+    justify-content: space-between;
 }
 
 .justify-end {
     justify-content: flex-end;
 }
+
+.justify-center {
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
+}
+
+
 
 /* MARGIN */
 
@@ -77,9 +85,17 @@
     padding: 1rem;
 }
 
+.pa-2 {
+    padding: 2rem;
+}
+
+/* padding left */
+
 .pa-lft-1 {
     padding-left: 1rem;
 }
+
+/* padding right */
 
 .pa-rgt-1 {
     padding-right: 1rem;
