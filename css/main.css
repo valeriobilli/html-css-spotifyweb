@@ -10,6 +10,10 @@
     background-color: #141922;
 }
 
+.bg-dark-blue {
+    background-color: #080b12;
+}
+
 .fg-white {
     color: white;
 }
@@ -20,16 +24,9 @@
 
 /* FONT */
 
-.bold {
-    font-weight: bold;
-}
 
 body { font-family: 'Open Sans', sans-serif; }
 
-
-.ao {
-    margin-bottom: 100px;
-}
 
 
 
@@ -37,14 +34,29 @@ main {
     background-color: darkseagreen;
 }
 
+
+/* HEADER */
+
 header {
-    background-color: darkgreen;
     height: 90px;
     width: calc(100% - 50px);
     position: fixed;
     top: 0;
     right: 0;
 }
+
+header > div {
+    height: 100%;
+}
+
+header button {
+    padding: 1rem 2.5rem;
+    border-radius: 50px;
+    border: 1px solid white;
+}
+
+
+
 
 /* SIDE MENU */
 
