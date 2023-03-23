@@ -83,7 +83,7 @@ aside, #icon-side-menu {
 
 .main-container {
     height: calc(100vh - 90px);
-    padding-top: 90px;
+    padding: 90px 1rem 1rem;
     width: calc(100% - 50px);
 }
 
@@ -92,21 +92,14 @@ nav {
     flex-wrap: wrap;
     padding: 0.5rem;
     justify-content: space-evenly;
+    margin-bottom: 2rem;
 }
 
 nav > a {
-    margin: 1rem;
+    width: calc(100% / 2);
+    margin-bottom: 1rem;
+    text-align: center;
 }
-
-
-
-
-
-
-
-
-
-
 
 
 /* FOOTER */
@@ -149,11 +142,25 @@ footer {
         width: calc(100% - 230px);
     }
 
-
-
-
-
-
+    nav > a {
+        width: calc(100% / 3);
+    }
 
 
 }
+
+@media screen and (min-width: 768px) {
+
+    nav > a {
+        width: calc(100% / 4);
+    }
+}
+
+
+@media screen and (min-width: 1278px) {
+
+    nav > a {
+        width: calc(100% / 6);
+    }
+}
+
