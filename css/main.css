@@ -28,13 +28,6 @@
 body { font-family: 'Open Sans', sans-serif; }
 
 
-
-
-main {
-    background-color: darkseagreen;
-}
-
-
 /* HEADER */
 
 header {
@@ -56,13 +49,12 @@ header button {
 }
 
 
-
-
 /* SIDE MENU */
 
 aside, #icon-side-menu {
     width: 50px;
-    height: calc(100vh - 90px)
+    height: calc(100vh - 90px);
+    overflow: hidden;
 }
 
 #logo {
@@ -76,6 +68,20 @@ aside, #icon-side-menu {
 #text-side-menu {
     height: 100%;
     display: none;
+}
+
+.main-container {
+    width: calc(100% - 50px);
+}
+
+
+/* MAIN CONTAINER */
+
+.main-container {
+    height: calc(100vh - 90px);
+    padding-top: 90px;
+    width: calc(100% - 50px);
+    
 }
 
 
@@ -114,6 +120,7 @@ footer {
     
     aside {
         width: 230px;
+        height: calc(100vh - 90px);
     }
 
     #icon-side-menu {
@@ -122,6 +129,10 @@ footer {
 
     #text-side-menu {
         display: flex;
+    }
+
+    .main-container {
+        width: calc(100% - 230px);
     }
 
 
