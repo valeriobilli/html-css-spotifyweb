@@ -40,6 +40,7 @@ header {
     position: fixed;
     top: 0;
     right: 0;
+    background-color: rgba(0, 0, 0, 0.758);
 }
 
 header > div {
@@ -125,7 +126,7 @@ nav {
 }
 
 
-
+/* section album */
 
  .card {
     width: 50%;
@@ -135,6 +136,13 @@ nav {
  .card > img {
     width: 100%;
  }
+
+ .round-image {
+    border-radius: 50%;
+ }
+
+
+
 
 
 /* FOOTER */
