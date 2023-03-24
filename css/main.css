@@ -211,6 +211,14 @@ footer {
         width: calc(100% / 2);
     }
 
+    #artist-name {
+        display: flex;
+    }
+
+    #list-tv-icon {
+        display: flex;
+    }
+
 
 }
 
@@ -224,6 +232,7 @@ footer {
         width: calc(100% / 4);
         padding: 0.5rem;
      }
+
 }
 
 
