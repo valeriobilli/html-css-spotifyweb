@@ -7,6 +7,14 @@
 
 /* FONT-SIZE */
 
+.font-10px {
+    font-size: 10px;
+}
+
+.font-14px {
+    font-size: 14px;
+}
+
 .font-2_25 {
     font-size: 2.25rem;
 }
