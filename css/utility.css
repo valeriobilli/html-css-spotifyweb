@@ -138,3 +138,13 @@
 .align-center {
     align-items: center;
 }
+
+/* POSITION */
+
+.absolute {
+    position: absolute;
+}
+
+.relative {
+    position: relative;
+}

@@ -55,6 +55,10 @@ aside, #icon-side-menu {
     width: 15%;
 }
 
+#download {
+    width: 60%;
+}
+
 #text-side-menu {
     height: 100%;
     display: none;
@@ -138,7 +142,6 @@ footer {
     bottom: 0;
 }
 
-
 .foot-1 { 
     height: 90px;
     padding: 0.5rem;
@@ -155,13 +158,30 @@ footer {
     padding: 0.5rem;
 }
 
-#progress-bar {
+#song-bar {
     height: 5px;
     width: 100%;
     margin-left: 2%;
     margin-right: 3%;
     background-color: #5a5a5a;
     border-radius: 5px;
+}
+
+#progress-bar {
+    height: 5px;
+    width: 10%;
+    background-color: #c1c1c1;
+    border-radius: 5px;
+    left: 0;
+}
+
+#thumb-song {
+    height: 12px;
+    width: 12px;
+    background-color: white;
+    border-radius: 50%;
+    left: 8%;
+    top: -50%;
 }
 
 .foot-3 {
@@ -177,9 +197,22 @@ footer {
     border-radius: 5px;
 }
 
+#volume-range {
+    height: 5px;
+    width: 30px;
+    background-color: #c1c1c1;
+    border-radius: 5px;
+    left: 0;
+}
 
-
-
+#thumb-volume {
+    height: 12px;
+    width: 12px;
+    background-color: white;
+    border-radius: 50%;
+    left: 25px;
+    top: -60%;
+}
 
 
 /* MEDIA QUERY */
@@ -211,6 +244,10 @@ footer {
         width: calc(100% / 2);
     }
 
+    .foot-1 img {
+        height: 60%;
+    }
+
     #artist-name {
         display: flex;
     }
@@ -218,6 +255,8 @@ footer {
     #list-tv-icon {
         display: flex;
     }
+
+    
 
 
 }

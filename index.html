@@ -35,7 +35,7 @@
                         <img src="img/libreria.svg" alt="libreria">
                     </div>
                     <div class="pa-0_5">
-                        <img class="ma-btm-1" src="img/download.svg" alt="download">
+                        <img id="download" class="ma-btm-1" src="img/download.svg" alt="download">
                         <img src="img/profile.svg" alt="Icona utente">
                     </div>
                 </div>
@@ -212,7 +212,10 @@
                 </div>
                 <div class="flex justify-center align-center">
                     <span class="font-10px fg-white bold">0:25</span>
-                    <div id="progress-bar"></div>
+                    <div id="song-bar" class="relative">
+                        <div id="progress-bar" class="absolute"></div>
+                        <div id="thumb-song" class="absolute"></div>
+                    </div>
                     <span class="font-10px fg-white bold">4:35</span>
                 </div>
             </div>
@@ -222,7 +225,10 @@
                     <div class="ma-rgt-1"><i class="fa-solid fa-tv font-12px fg-white"></i></div>
                 </div>
                 <div class="ma-rgt-0_5"><i class="fa-solid fa-volume-high font-12px fg-white"></i></div>
-                <div id="volume"></div>
+                <div id="volume" class="relative">
+                    <div id="volume-range" class="absolute"></div>
+                    <div id="thumb-volume" class="absolute"></div>
+                </div>
             </div>
 
         </div>
