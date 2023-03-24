@@ -85,6 +85,7 @@ aside, #icon-side-menu {
     height: calc(100vh - 90px);
     padding: 90px 1rem 1rem;
     width: calc(100% - 50px);
+    overflow: scroll;
 }
 
 nav {

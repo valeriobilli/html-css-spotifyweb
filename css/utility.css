@@ -7,8 +7,8 @@
 
 /* FONT-SIZE */
 
-.font-10px {
-    font-size: 10px;
+.font-12px {
+    font-size: 12px;
 }
 
 .font-14px {
@@ -69,6 +69,10 @@
 
 .ma-btm-1_5 {
     margin-bottom: 1.5rem;
+}
+
+.ma-btm-2 {
+    margin-bottom: 2rem;
 }
 
 /* margin right */
