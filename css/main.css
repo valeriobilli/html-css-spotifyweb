@@ -52,11 +52,11 @@ aside, #icon-side-menu {
 }
 
 .small-icon {
-    width: 15%;
+    width: 25px;
 }
 
 #download {
-    width: 60%;
+    width: 1.5rem;
 }
 
 #text-side-menu {
@@ -68,6 +68,7 @@ aside, #icon-side-menu {
     height: 250px;
     overflow: scroll;
 }
+
 
 /* MAIN CONTAINER */
 
@@ -212,6 +213,21 @@ footer {
     border-radius: 50%;
     left: 25px;
     top: -60%;
+}
+
+
+/* HOVER */
+
+/* Header */
+
+header button:hover {
+    transform: scale(1.1);
+}
+
+/* side menu */
+
+aside a:hover {
+    color: white;
 }
 
 

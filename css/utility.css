@@ -10,15 +10,16 @@
 
 /* Font Size */
 
+/* pixel */
 .font-10px { font-size: 10px; }
 .font-12px { font-size: 12px; }
 .font-14px { font-size: 14px; }
 .font-20px { font-size: 20px; }
 
-.font-2 {
-    font-size: 2rem;
-}
+/* rem */
+.font-2 { font-size: 2rem; }
 .font-2_25 { font-size: 2.25rem; }
+.font-2_5 { font-size: 2.5rem;}
 
 /* Font Weight */
 
