@@ -15,7 +15,7 @@
 .font-12px { font-size: 12px; }
 .font-14px { font-size: 14px; }
 .font-20px { font-size: 20px; }
-.font-80px { font-size: 80px;}
+.font-70px { font-size: 70px;}
 
 /* rem */
 .font-2     { font-size: 2rem; }
@@ -32,6 +32,9 @@
 /* MARGIN */
 
 .ma-0_5 { margin: 0.5rem; }
+
+/* margin top */
+.ma-top-0_5 { margin-top: 0.5rem;}
 
 /* margin bottom */
 .ma-btm-0_5    { margin-bottom: 0.5rem; }
