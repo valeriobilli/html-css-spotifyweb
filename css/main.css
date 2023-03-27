@@ -126,9 +126,20 @@ nav {
     padding: 0.5rem;
  }
 
- .card > img {
+ .card img {
     width: 100%;
  }
+
+ .album-film {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.album-film i {
+    display: none;
+}
 
  .round-image {
     border-radius: 50%;
@@ -183,6 +194,7 @@ footer {
     border-radius: 50%;
     left: 8%;
     top: -50%;
+    display: none;
 }
 
 .foot-3 {
@@ -213,6 +225,7 @@ footer {
     border-radius: 50%;
     left: 25px;
     top: -60%;
+    display: none;
 }
 
 
@@ -229,6 +242,47 @@ header button:hover {
 aside a:hover {
     color: white;
 }
+
+.border-side:hover {
+    border-left: 3px solid #adff2f;
+}
+
+/* main */
+
+.card:hover .album-film {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.card:hover .album-film i {
+    display: block;
+}
+
+/* footer */
+
+.foot-1 i:hover {
+    color: white;
+}
+
+#song-bar:hover #thumb-song {
+    display: block;
+}
+
+#song-bar:hover #progress-bar {
+    background-color: #adff2f;
+}
+
+#volume:hover #thumb-volume {
+    display: block;
+}
+
+#volume:hover #volume-range {
+    background-color: #adff2f;
+}
+
+footer .fa-circle-play:hover {
+    transform: scale(1.1);
+}
+
 
 
 /* MEDIA QUERY */
@@ -271,10 +325,6 @@ aside a:hover {
     #list-tv-icon {
         display: flex;
     }
-
-    
-
-
 }
 
 @media screen and (min-width: 768px) {
@@ -287,7 +337,6 @@ aside a:hover {
         width: calc(100% / 4);
         padding: 0.5rem;
      }
-
 }
 
 
@@ -307,4 +356,3 @@ aside a:hover {
         padding: 0.5rem;
      }
 }
-
